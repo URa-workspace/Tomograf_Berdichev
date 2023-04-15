@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png"> -->
+	<!-- <link rel="icon" type="image/svg" sizes="32x32" href="img/logo-180x180.png">-->
+	<link rel="icon" type="image/svg" sizes="16x16" href="img/logo-180x180.png">
+	<!-- <link rel="manifest" href="./site.webmanifest"> -->
+	<!--  hreflang="uk-UA" -->
+	<link href="@@canonicalPage" rel="canonical" hreflang="uk-UA" />
+	<!-- Compiled and minified CSS -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="stylesheet" type="text/css" href="css/style.min.css?_v=20230415211413">
+	<title>Ціни</title>
+	<meta name="robots" content="index, follow">
+	<meta name="keywords" content="@@description-keywords">
+	<meta name="description" content="@@description-content">
+
+	<meta property="og:locale" content="uk_UA" />
+	<meta property="og:site_name" content="@@description-title" />
+	<meta property="og:title" content="@@description-title" />
+	<meta property="og:url" content="@@canonicalPage" />
+	<meta property="og:type" content="website" />
+	<meta property="og:description" content="@@description-content" />
+	<meta property="og:image" content="img/logo-180x180.png" />
+
+	<meta itemprop="name" content="@@description-title" />
+	<meta itemprop="headline" content="@@description-title" />
+	<meta itemprop="description" content="@@description-content" />
+	<meta itemprop="image" content="img/logo-180x180.png" />
+	<meta itemprop="author" content="U-RA" />
+	<!-- <meta name="facebook-domain-verification" content="" /> -->
+	
+</head>
+<body id="tsiny" class="">
+	<div class="preloader" id="preloader">
+		<img src="img/preloader.gif" width="100" height="100" alt="preloader">
+	</div>
+	<div id="contentHide"></div>
+	<div class="wrapper">
+		<header class="d-flex flex-column-reverse flex-lg-column header">
+	<div class="container">
+		<div class="row w-100 pb-1 pt-1">
+			<div class="col-6 col-sm-5 d-flex flex-column justify-content-between" style="height: fit-content;">
+				<div class="d-flex align-content-center justify-content-start" style="height: fit-content;">
+					<div class="header__logo d-flex flex-column align-content-start justify-content-center">
+						<picture><source srcset="../img/logo-180x180.webp" type="image/webp"><img src="../img/logo-180x180.png" alt="logo-180x180" /></picture>
+					</div>
+					<div class="header__logo-title d-flex flex-column align-content-start justify-content-center">
+						<span>COMPUTED</span>
+						<span>TOMOGRAPHY</span>
+					</div>
+				</div>
+				<div class="header__contacts d-flex d-lg-none align-content-start justify-content-start">
+					<a rel="nofollow" class="text-start" href="tel:+380000000000">+38(000)000-00-00</a>
+				</div>
+			</div>
+			<div class="col-6 col-sm-7 col-lg-5 d-flex flex-column align-content-end align-content-lg-start justify-content-between justify-content-lg-center pad-min-xs">
+				<div class="header__info d-flex flex-column align-content-start justify-content-center mt-2 mt-lg-0">
+					<p class="text-end text-lg-start">м.Бердичів, вул.Койкого,16</p>
+					<p class="text-end text-lg-start">Пн - Сб: 08.00 - 19.00</p>
+				</div>
+				<div class="header__contacts d-flex flex-column flex-xl-row align-content-center justify-content-start gap-xl-3">
+					<a rel="nofollow" class="text-end text-lg-start" href="tel:+380000000000">+38(000)000-00-00</a>
+					<a rel="nofollow" class="d-none d-lg-inline text-end text-lg-start" href="tel:+380000000000">+38(000)000-00-00</a>
+				</div>
+			</div>
+			<div class="col-lg-2 d-none d-lg-flex justify-content-end">
+				<div class="header__block-buttons d-flex flex-row-reverse align-content-center align-items-center justify-content-center gap-1">
+					<select class="header__select-lang" name="lang" id="lang">
+						<option value="UA">UA</option>
+						<option value="RU">RU</option>
+					</select>
+					<button type="button" class="btn custom-btn show-modal">Записатись</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<nav class="navbar navbar-dark bg-primary header__nav">
+		<div class="container">
+			<div class="row w-100">
+				<div class="d-none d-lg-block col p-0">
+					<a href="./" data-active-item="diagnostyka">КТ діагностика</a>
+				</div>
+				<div class="d-none d-lg-block col p-0 position-relative has-sub-nav">
+					<a href="./pacientam.html" data-active-item="pacientam">Пацієнтам</a>
+				</div>
+				<div class="d-none d-lg-block col p-0">
+					<a href="./tsiny.html" data-active-item="tsiny">Ціни</a>
+				</div>
+				<div class="d-none d-lg-block col p-0">
+					<a href="./konsultaciia.html" data-active-item="konsultaciia">Консультація</a>
+				</div>
+				<div class="d-none d-lg-block col p-0">
+					<a href="./kontakty.html" data-active-item="kontakty">Контакти</a>
+				</div>
+				<div class="d-flex justify-content-between align-content-center align-items-center d-lg-none col pl-1">
+					<select class="header__select-lang" name="lang" id="lang">
+						<option value="UA" selected>UA</option>
+						<option value="RU">RU</option>
+					</select>
+					<a rel="nofollow" href="#" class=" header__navbar-toggler d-flex align-items-center justify-content-center menu-toggler"><span>Меню</span><div></div></a>
+				</div>
+			</div>
+		</div>
+	</nav>
+</header>
+		<div class="main">
+			<div class="container container__main">
+				<div class="row h-100">
+					<div class="col sidebar" id="sidebar">
+	<div class="menu-close d-lg-none">
+		Закрити<span></span>
+	</div>
+	<div class="sidebar__content">
+		<div class="sidebar__title">
+			<h2>КТ</р>
+		</div>
+		<ul class="sidebar__sidebar-menu" id="sidebarMenu">
+			<li class="sidebar-menu__item has-submenu">
+				КТ голови
+				<ul class="sidebar__sidebar-submenu submenu">
+					<li class="sidebar-submenu__item">
+						<a href="./kt-golovnogo-mozku.html">КТ головного мозку</a>
+					</li>
+					<li class="sidebar-submenu__item">
+						<a href="./kt-skronevyh-kistok.html">КТ скроневих кісток</a>
+					</li>
+					<li class="sidebar-submenu__item">
+						<a href="./kt-seredniogo-vuha.html">КТ середнього вуха</a>
+					</li>
+					<li class="sidebar-submenu__item">
+						<a href="./kt-prydatkovyh-pazuh.html">КТ придаткових пазух</a>
+					</li>
+					<li class="sidebar-submenu__item">
+						<a href="./kt-ochnyh-orbit.html">КТ очних орбіт</a>
+					</li>
+				</ul>
+			</li>
+			<li class="sidebar-menu__item has-submenu">
+				КТ хребта
+				<ul class="sidebar__sidebar-submenu submenu">
+					<li class="sidebar-submenu__item">
+						<a href="./kt-shyinogo-viddilu-hrebta.html">КТ шийного відділу хребта</a>
+					</li>
+					<li class="sidebar-submenu__item">
+						<a href="./kt-grudynnogo-viddilu-hrebta.html">КТ грудинного відділу хребта</a>
+						</span>
+					</li>
+					<li class="sidebar-submenu__item">
+						<a href="./kt-poperekovogo-viddilu-hrebta.html">КТ поперекового відділу хребта</a>
+					</li>
+				</ul>
+			</li>
+			<li class="sidebar-menu__item has-submenu">
+				КТ внутрішніх органів
+				<ul class="sidebar__sidebar-submenu submenu">
+					<li class="sidebar-submenu__item">
+						<a href="./kt-organiv-grudnoji-klitky.html">КТ органів грудної клітки (ОГК)</a>
+					</li>
+					<li class="sidebar-submenu__item">
+						<a href="./kt-organiv-cherevnoji-porojnyny.html">КТ органів черевної порожнини (ОЧП)</a>
+						</span>
+					</li>
+					<li class="sidebar-submenu__item">
+						<a href="./kt-zaocherevynnogo-prostiru.html">КТ заочеревинного простіру (ЗП)</a>
+					</li>
+					<li class="sidebar-submenu__item">
+						<a href="./kt-organiv-malogo-tazu.html">КТ органів малого тазу (ОМТ)</a>
+					</li>
+				</ul>
+			</li>
+			<li class="sidebar-menu__item has-submenu">
+				КТ кінцівок
+				<ul class="sidebar__sidebar-submenu submenu">
+					<li class="sidebar-submenu__item">
+						<a href="../kt-kincivok.html">КТ кінцівок</a>
+					</li>
+					<li class="sidebar-submenu__item">
+						<a href="./kt-kistok-tazu.html">КТ кісток тазу</a>
+						</span>
+					</li>
+					<li class="sidebar-submenu__item">
+						<a href="./kt-tazostegnovyh-suglobiv.html">КТ тазостегнових суглобів</a>
+					</li>
+				</ul>
+			</li>
+			<li class="d-lg-none sidebar-menu__item">
+				<a href="./pacientam.html" class="p-0 border-bottom-0">Пацієнтам</a>
+			</li>
+			<li class="d-lg-none sidebar-menu__item">
+				<a href="./tsiny.html" class="p-0 border-bottom-0">Ціни</a>
+			</li>
+			<li class="d-lg-none sidebar-menu__item">
+				<a href="./konsultaciia.html" class="p-0 border-bottom-0">Консультація</a>
+			</li>
+			<li class="d-lg-none sidebar-menu__item">
+				<a href="./kontakty.html" class="p-0 border-bottom-0">Контакти</a>
+			</li>
+		</ul>
+	</div>
+</div>
+					<div class="col">
+						<div class="main__content pt-2">
+							<h1>Ціни на комп'ютерну томографію в Бердичіві</h1>
+							<article>
+								<table class="table table-hover table-striped table-secondary table-bordered">
+									<thead class="table-primary">
+										<tr scope="row">
+											<th scope="col">Послуга</th>
+											<th scope="col">Ціна</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>КТ головного мозку</td>
+											<td>900 грн</td>
+										</tr>
+										<tr>
+											<td>КТ головного мозку з внутрішньовенним контрастуванням</td>
+											<td>1200 грн</td>
+										</tr>
+										<tr>
+											<td>КТ скроневих кісток, середнього вуха</td>
+											<td>900 грн</td>
+										</tr>
+										<tr>
+											<td>КТ придаткових пазух</td>
+											<td>900 грн</td>
+										</tr>
+										<tr>
+											<td>КТ орбіт, турецького сідла</td>
+											<td>900 грн</td>
+										</tr>
+										<tr>
+											<td>КТ шийного відділу хребта</td>
+											<td>900 грн</td>
+										</tr>
+										<tr>
+											<td>КТ грудного відділу хребта (12 хребців)</td>
+											<td>1700 грн</td>
+										</tr>
+										<tr>
+											<td>КТ верхньо-грудного відділу хребта (запис на CD без RO плівки)</td>
+											<td>1000 грн</td>
+										</tr>
+										<tr>
+											<td>КТ середньо-грудного відділу хребта (запис на CD без RO плівки)</td>
+											<td>1000 грн</td>
+										</tr>
+										<tr>
+											<td>КТ нижньо-грудного відділу хребта (запис на CD без RO плівки)</td>
+											<td>1000 грн</td>
+										</tr>
+										<tr>
+											<td>КТ органів грудної клітки (ОГК)</td>
+											<td>900 грн</td>
+										</tr>
+										<tr>
+											<td>КТ поперекового відділу хребта</td>
+											<td>900 грн</td>
+										</tr>
+										<tr>
+											<td>КТ органів черевної порожнини (ОЧП)</td>
+											<td>1100 грн</td>
+										</tr>
+										<tr>
+											<td>КТ заочеревинного простору</td>
+											<td>1100 грн</td>
+										</tr>
+										<tr>
+											<td>КТ органів малого тазу</td>
+											<td>1100 грн</td>
+										</tr>
+										<tr>
+											<td>КТ кісток тазу, тазостегнових суглобів</td>
+											<td>1100 грн</td>
+										</tr>
+										<tr>
+											<td>КТ органів черевної порожнини + органів малого тазу (урологія)</td>
+											<td>2200 грн</td>
+										</tr>
+										<tr>
+											<td>КТ кінцівок (одна анатомічна область)</td>
+											<td>1000 грн</td>
+										</tr>
+										<tr>
+											<td>КТ кінцівок (1 суглоб)</td>
+											<td>900 грн</td>
+										</tr>
+										<tr>
+											<td>КТ органів грудної клітини з внутрішньовенним контрастуванням</td>
+											<td>2500 грн</td>
+										</tr>
+										<tr>
+											<td>КТ органів черевної порожнини з внутрішньовенним контрастуванням</td>
+											<td>2500 грн</td>
+										</tr>
+										<tr>
+											<td>КТ заочеревинного простору з внутрішньовенним контрастуванням</td>
+											<td>2500 грн</td>
+										</tr>
+										<tr>
+											<td>КТ органів малого тазу з внутрішньовенним контрастуванням</td>
+											<td>2500 грн</td>
+										</tr>
+										<tr>
+											<td>КТ органів грудної клітини + органів черевної порожнини з внутрішньовенним контрастуванням</td>
+											<td>2700 грн</td>
+										</tr>
+										<tr>
+											<td>КТ органів черевної порожнини + органів малого тазу з внутрішньовенним контрастуванням</td>
+											<td>2700 грн</td>
+										</tr>
+										<tr>
+											<td>КТ органів грудної клітини + органів черевної порожнини + органів малого тазу з внутрішньовенним контрастуванням</td>
+											<td>3250 грн</td>
+										</tr>
+										<tr>
+											<td>КТ органів грудної клітини + органів черевної порожнини + органів малого тазу + заочеревинного простору з внутрішньовенним контрастуванням
+											</td>
+											<td>3850 грн</td>
+										</tr>
+										<tr>
+											<td>Повторний запис дослідження на CD диск</td>
+											<td>160 грн</td>
+										</tr>
+										<tr>
+											<td>Повторний запис дослідження на RO плівку</td>
+											<td>260 грн</td>
+										</tr>
+										<tr>
+											<td>Додадкове введення контрастної речовини</td>
+											<td>950 грн</td>
+										</tr>
+									</tbody>
+								</table>
+								<div class="button">
+									<button type="button" class="btn custom-btn show-modal">Записатись на процедуру</button>
+								</div>
+							</article>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+	<div class="container">
+		<div class="row flex-column">
+			<div class="col">
+				<div class="row d-flex flex-column flex-md-row gap-2">
+					<div class="col">
+						<div class="footer__content">
+							<div class="button p-0">
+								<button class="btn button-light show-modal">
+									Запис на КТ
+								</button>
+							</div>
+							<div class="socials w-100 d-flex align-items-center justify-content-center gap-3">
+								<a href="http://" target="_blank" rel="noopener noreferrer nofollow" class="vb-color">
+									<picture><source srcset="../img/viber.webp" type="image/webp"><img src="../img/viber.png" class="svg-facebook-dims" alt="facebook" /></picture>
+								</a>
+								<a href="http://" target="_blank" rel="noopener noreferrer nofollow" class="fb-color">
+									<picture><source srcset="../img/facebook.webp" type="image/webp"><img src="../img/facebook.png" class="svg-facebook-dims" alt="facebook" /></picture>
+								</a>
+								<a href="http://" target="_blank" rel="noopener noreferrer nofollow" class="inst-color">
+									<picture><source srcset="../img/instagram.webp" type="image/webp"><img src="../img/instagram.png" class="svg-instagram_-dims" alt="instagram_" /></picture>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="col">
+						<div class="footer__content">
+							<a rel="nofollow" href="tel:+380000000000">+38(000)000-00-00</a>
+							<a rel="nofollow" href="tel:+380000000000">+38(000)000-00-00</a>
+							<a rel="nofollow" href="mailto:example@gmail.com">example@gmail.com</a>
+						</div>
+					</div>
+					<div class="col">
+						<div class="footer__content">
+							<p>м. Бердичів</p>
+							<p>вул.Койкого, 16</p>
+							<p>Пн - Сб: 8.00 - 19.00</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row footer__bottom">
+		<div class="col footer__bottom-col">Created U-Ra 2023</div>
+	</div>
+</footer>
+		<div class="vidjet" id="vidjet">
+	<div class="vidjet__icon"><picture><source srcset="img/vidjet-icon.webp" type="image/webp"><img src="img/vidjet-icon.png" alt="vidjet"></picture></div>
+	<div class="vidjet__content hidden">
+		<div class="vidjet__header">
+			<div class="vidjet__header-close"></div>
+			<picture><source srcset="img/icon-feedback.webp" type="image/webp"><img src="img/icon-feedback.png" alt="feedback"></picture>
+			<h4 class="vidjet__header-title">
+				Ком'ютерна<br/>томографія
+			</h4>
+			<p class="vidjet__header-subtitle">
+				Запис та консультації
+			</p>
+		</div>
+		<div class="vidjet__body">
+			<div class="vidjet__body-img">
+				<picture><source srcset="img/icon-feedback.webp" type="image/webp"><img src="img/icon-feedback.png" alt="feedback2"></picture>
+			</div>
+			<div class="vidjet__body-text">
+				<p>Вітаю! Зв'яжіться з нами будь-яким, зручним для вас способом і ми відповімо на всі ваші питання!</p>
+			</div>
+		</div>
+		<div class="vidjet__footer">
+			<div class="vidjet__footer-row">
+				<div class="vidjet__footer-col">
+					<p class="vidjet__footer-label">Канали зв'язку:</p>
+				</div>
+			</div>
+			<div class="vidjet__footer-row">
+				<div class="vidjet__footer-col">
+					<a rel="nofollow" href="tel:+380503351777" class="vidjet__footer-btn vidjet__footer-btn--red">
+						<picture><source srcset="img/icon-phone.webp" type="image/webp"><img src="img/icon-phone.png" alt="phone"></picture>
+						<span>Зателефонувати</span>
+					</a>
+				</div>
+			</div>
+			<div class="vidjet__footer-row">
+				<div class="vidjet__footer-col vidjet__footer-col--50">
+					<a rel="nofollow" href="http://" target="_blank"
+						class="vidjet__footer-btn vidjet__footer-btn--blue">
+						<picture><source srcset="img/facebook.webp" type="image/webp"><img src="img/facebook.png" alt="Facebook"></picture>
+						<span>Facebook</span>
+					</a>
+				</div>
+				<div class="vidjet__footer-col vidjet__footer-col--50">
+					<a rel="nofollow" href="viber://" target="_blank"
+						class="vidjet__footer-btn vidjet__footer-btn--purple">
+						<picture><source srcset="img/viber.webp" type="image/webp"><img src="img/viber.png" alt="viber"></picture>
+						<span>Viber</span>
+					</a>
+				</div>
+			</div>
+			<div class="vidjet__footer-row">
+				<div class="vidjet__footer-col">
+					<a rel="nofollow" href="#" class="vidjet__footer-btn vidjet__footer-btn--yellow show-modal">
+						<picture><source srcset="img/icon-phone.webp" type="image/webp"><img src="img/icon-phone.png" alt="phone"></picture>
+						<span>Записатись он-лайн</span>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js?_v=20230415211413"
+		integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+		crossorigin="anonymous"></script>
+		
+	<script src="js/app.min.js?_v=20230415211413"></script>
+</body>
+</html>
